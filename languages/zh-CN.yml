@@ -15,7 +15,7 @@ page:
   articles: 文章总览
   tag: 标签
   category: 分类
-  archives: 归档
+  archives: 时间轴
 
 sticky: 置顶
 no_title: 无题
@@ -61,7 +61,7 @@ aside:
   card_announcement: 公告
   card_categories: 分类
   card_tags: 标签
-  card_archives: 归档
+  card_archives: 时间轴
   card_recent_post: 最新文章
   card_bookmark: 加入书签
   card_webinfo:
