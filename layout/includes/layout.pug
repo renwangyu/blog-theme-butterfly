@@ -43,3 +43,6 @@ html(lang=config.language data-theme=theme.display_mode)
     include ./rightside.pug
     !=partial('includes/search/index', {}, {cache:theme.fragment_cache})
     include ./additional-js.pug
+    
+    if theme.aplayer
+      include ./addons/card_aplayer.pug
