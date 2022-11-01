@@ -14,6 +14,24 @@
                     img(src=url_for(item.avatar) onerror=`this.onerror=null;this.src='` + url_for(theme.lodding_bg.flink) + `'` alt=item.name )
                   .md-links-title= item.name 
                   .md-links-des= item.descr
+
+  .flink#add-container
+    h2 交换友链
+    .post-cards
+      h3 💖 如果你喜欢我的博客或文章，而且也有自己一直在维护的博客，欢迎在下方评论区动动手指，按如下友链格式留下你的信息，与我交换友链 🚀
+      div(style='margin-left:20px;')
+        span(style='font-weight:bold') [站点名称]：
+        | 慢慢前端路
+      div(style='margin-left:20px;')
+        span(style='font-weight:bold') [站点地址]：
+        | https://blog.renwangyu.com
+      div(style='margin-left:20px;')
+        span(style='font-weight:bold') [个人形象]：
+        | https://blog.renwangyu.com/img/bb.jpg
+      div(style='margin-left:20px;')
+        span(style='font-weight:bold') [站点描述]：
+        | ：🤖 程序猿大叔de自我简介
+    
     != page.content
   if page.comments !== false
     include includes/comments/index.pug
